@@ -77,8 +77,3 @@ $catalog = new Catalog($products);
 
 $productsSortedByPrice = $catalog->getProducts($productPriceSorter);
 $productsSortedBySalesPerView = $catalog->getProducts($productSalesPerViewSorter, false);
-
-echo '<pre>';
-
-print_r($productsSortedByPrice);
-print_r($productsSortedBySalesPerView);
